@@ -1,0 +1,21 @@
+2026-01-21 10:39:44 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-01-21 10:39:44 INFO  [main] c.e.d.SpringBootProductBaseProjectIntellijApplicationTests - Starting SpringBootProductBaseProjectIntellijApplicationTests using Java 17.0.4.1 with PID 29552 (started by ansvarma in C:\Users\ansvarma\dockerprojects\CG-2026\docker\SpringBoot-Product-Base-Project-github-docker-git)
+2026-01-21 10:39:44 DEBUG [main] c.e.d.SpringBootProductBaseProjectIntellijApplicationTests - Running with Spring Boot v3.2.5, Spring v6.1.6
+2026-01-21 10:39:44 INFO  [main] c.e.d.SpringBootProductBaseProjectIntellijApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2026-01-21 10:39:46 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-21 10:39:46 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 70 ms. Found 1 JPA repository interface.
+2026-01-21 10:39:47 INFO  [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-01-21 10:39:47 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-01-21 10:39:47 INFO  [main] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-01-21 10:39:48 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-21 10:39:48 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-01-21 10:39:48 INFO  [main] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5d75f90e
+2026-01-21 10:39:48 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-01-21 10:39:49 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-21 10:39:50 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-21 10:39:50 WARN  [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-21 10:39:52 INFO  [main] o.s.b.a.e.web.EndpointLinksResolver - Exposing 13 endpoint(s) beneath base path '/actuator'
+2026-01-21 10:39:52 INFO  [main] c.e.d.SpringBootProductBaseProjectIntellijApplicationTests - Started SpringBootProductBaseProjectIntellijApplicationTests in 8.085 seconds (process running for 9.518)
+2026-01-21 10:39:54 INFO  [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-21 10:39:54 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-01-21 10:39:54 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
